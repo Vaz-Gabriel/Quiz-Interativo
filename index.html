@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Interativo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Quiz Interativo</h1>
+    <div id="quiz">
+      <div id="question-container">
+        <p id="question"></p>
+      </div>
+      <div id="answer-buttons" class="btn-container"></div>
+      <button id="next-btn" class="hide">Próxima</button>
+    </div>
+    <div id="result" class="hide">
+      <h2>Resultado: <span id="score"></span>/5</h2>
+      <button id="restart-btn">Reiniciar Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
